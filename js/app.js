@@ -6,7 +6,11 @@ for(var i = 0; i < students.length; i++) {
 var moreStudents = ['Ilya', 'David', 'Evan', 'Carlos', 'Ian'];
 var index = 0;
 while(index < moreStudents.length) {
-  console.log("My name is " + moreStudents[index] + " and I go WDI in Santa Monica.");
-  document.write("<p>My name is " + moreStudents[index] + " and I go WDI in Santa Monica.");
+  console.log("My name is " + moreStudents[index] + " and I also go WDI in Santa Monica.");
   index++;
+}
+
+var students2 = ['Erik', 'Jenny', 'David', 'Carlos', 'Adam', 'Lisa'];
+for (var i = 0; i < students2.length; i++ ) {
+	console.log("I really enjoyed working with " + students2[i] + "!");
 }
