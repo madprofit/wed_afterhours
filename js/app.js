@@ -12,8 +12,7 @@ while(index < moreStudents.length) {
 
 var students2 = ['Erik', 'Jenny', 'David', 'Carlos', 'Adam', 'Lisa'];
 for (var i = 0; i < students2.length; i++ ) {
-  console.log("My name is " + moreStudents[index] + " and I'm going to be a developer.");
-  index++;
+  console.log("My name is " + moreStudents[i] + " and I'm going to be a developer.");
 }
 
 var i = 0;
